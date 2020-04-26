@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> classic snake | scores </title>
+    <!-- loading required stylesheets -->
+    <link type = "text/css" rel = "stylesheet" href = "/libs/css/bootstrap.css">
+    <link type = "text/css" rel = "stylesheet" href = "/contents/css/common.css">
+    <link type = "text/css" rel = "stylesheet" href = "/contents/css/scores.css">
+  </head>
+  <body>
+    <div class = "container" align = "center">
+       <!-- container houses message to be displayed while scores are fetched --->
+      <div id = "message-container">
+        <h1 class = "message">
+          <strong>Loading Scores ! Please Wait ... </strong>
+        </h1>
+      </div>
+    </div>
+    <!-- container houses the main content of our web page -->
+    <div id = "page-container"  class = "container" align = "center">
+      <!-- container houses page heading --->
+      <div id = "heading-container">
+        <h1 class = "heading"><strong>Top # 5 Scores</strong></h1>
+      </div>
+       <!-- container houses the country, name and scores columns --->
+      <div id = "columns-container">
+        <div class = "column-wrapper">Country</div>
+        <div class = "column-wrapper">Name</div>
+        <div class = "column-wrapper">Score</div>
+      </div>
+      <br>
+       <!-- container houses top five score docs --->
+      <div id = "scores-container">
+      </div>
+      <!-- container houses button to navigate back to home page -->
+      <div id = "home-container" class = "container">
+        <button class = "btn btn-primary">Home</button>
+      </div>
+    </div>
+  </body>
+  <!-- loading required scripts -->
+  <script type = "text/javascript" src = "/libs/js/jquery.js"></script>
+  <script type = "text/javascript" src = "/libs/js/bootstrap.js"></script>
+  <script type = "text/javascript" src = "/contents/js/scores.js"></script>
+</html>

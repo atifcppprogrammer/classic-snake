@@ -1,0 +1,36 @@
+div#message-container{
+  margin-top:175px;
+}
+
+div#game-container > canvas{
+  background-color:rgb(20,20,20);
+  border:3px solid brown;
+  border-radius:10px;
+}
+
+div#replay-container > button{
+  margin-right:10px;
+  font-size:20px;
+}
+
+div#submit-container > button{
+  margin-left:10px;
+  font-size:20px;
+}
+
+div#submit-container > input{
+  background-color:rgb(25,25,25);
+  border: 2px solid brown; 
+  border-radius:80px;
+  color:white;
+  height:43px;
+}
+
+div#submit-container{
+  margin-top:-58px;
+  visibility:hidden;
+}
+
+div#page-container{
+  margin-top:-275px;
+}

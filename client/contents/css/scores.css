@@ -1,0 +1,43 @@
+.column-wrapper{
+  font-family:ubuntu-major;
+  background-color:brown;
+  display:inline-block;
+  border-radius:80px;
+  margin-right:20px;
+  margin-left:20px;
+  font-size:20px;
+  padding:10px;
+  width:170px;
+}
+
+.wrapper{
+  display:inline-block;
+  margin-right:20px;
+  margin-left:20px;
+  font-size:20px;
+  padding:10px;
+  width:170px;
+}
+
+div#home-container > button{
+  margin-right:25px;
+  font-size:20px;
+}
+
+div#home-container{
+  margin-top:10px;
+}
+
+div#heading-container{
+  margin-bottom:30px;
+}
+
+div#message-container{
+  margin-top:175px;
+}
+
+div#page-container{
+  visibility:hidden;
+}
+
+

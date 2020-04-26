@@ -1,0 +1,17 @@
+{
+  "name": "classic-snake",
+  "description": "A JavaScript rendition of the classic snake game with Node.js",
+  "dependencies": {
+    "body-parser": "1.19.x",
+    "express": "4.17.x",
+    "mongodb": "3.5.x",
+    "colors": "1.4.x"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "12.16.x",
+    "npm": "6.14.x"
+  },
+  "private": true,
+  "author": "atifcppprogrammer"
+}

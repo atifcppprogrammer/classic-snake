@@ -1,0 +1,45 @@
+@font-face {
+  font-family:'ubuntu-regular';
+  src:url('/assets/fonts/ubuntu/regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'ubuntu-major';
+  src:url('/assets/fonts/ubuntu/major.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'ubuntu-bold';
+  src:url('/assets/fonts/ubuntu/bold.ttf') format('truetype');
+}
+
+.btn-primary{
+  background-color:brown;
+  font-family:ubuntu-major;
+  border-color:brown;
+  border-radius:80px;
+  margin-bottom:5px;
+}
+
+.heading{
+  font-family:ubuntu-bold;
+  font-size:50px;
+}
+
+.message{
+  font-family:ubuntu-major;
+  font-size:40px;
+}
+  
+.container{
+  margin-bottom:10px;
+}
+
+body{
+  background-color:rgb(25,25,25);
+  font-family:ubuntu-regular;
+  visibility:hidden;
+  overflow:hidden;
+  margin-top:15px;
+  color:white;
+}

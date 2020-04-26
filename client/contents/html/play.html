@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> classic snake | play </title>
+    <!-- loading required stylesheets -->
+    <link type = "text/css" rel = "stylesheet" href = "/libs/css/bootstrap.css">
+    <link type = "text/css" rel = "stylesheet" href = "/contents/css/common.css">
+    <link type = "text/css" rel = "stylesheet" href = "/contents/css/play.css">
+  </head>
+  <body>
+    <!-- Container houses prompting some action from the user -->
+    <div class = "container" align = "center">
+      <div id = "message-container">
+        <h1 class = "messsage"><strong>Would you like to play again ?</strong></h1>
+      </div>
+    </div>
+    <!-- Container houses the buttons for playing again or going to home -->
+    <div class = "container" align = "center">
+      <div id = "replay-container">
+        <button class = "btn btn-primary">Yes</button>
+        <button class = "btn btn-primary">No</button>
+      </div>
+    </div>
+    <!-- Container houses the submission input tag and button -->
+    <div class = "container" align = "center">
+      <div id = "submit-container">
+        <input type = "text" maxlength = "17" placeholder = "      Type your name in here "/>
+        <button class = "btn btn-primary">Submit</button>
+      </div>
+    </div>
+    <!-- Container houses the game canvas and info container -->
+    <div id = "page-container" class = "container" align = "center">
+      <div id = "score-container">
+        <h3><strong>Score: 0</strong></h3>
+      </div>
+      <div id = "game-container">
+        <canvas width = "750" height = "375"></canvas>
+      </div>
+      <div id = "info-container">
+        <h4>
+          <strong>Move using arrow keys and use p & q to pause and quit</strong>
+        </h4>
+      </div>
+    </div>
+  </body>
+  <!-- loading required scripts -->
+  <script type = "text/javascript" src = "/libs/js/jquery.js"></script>
+  <script type = "text/javascript" src = "/libs/js/bootstrap.js"></script>
+  <script type = "text/javascript" src = "/contents/js/snake.js"></script>
+  <script type = "text/javascript" src = "/contents/js/play.js"></script>
+</html>

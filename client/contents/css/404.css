@@ -1,0 +1,12 @@
+div#message-container{
+  margin-top:175px;
+  padding:10px;
+  width:550px;
+}
+
+div#home-container > button{
+  font-size:20px;
+}
+div#home-container{
+  margin-top:15px;
+}

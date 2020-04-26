@@ -1,0 +1,14 @@
+div#photo-container > img{
+  border-radius:200px;
+  margin-bottom:10px;
+  height:200px;
+  width:210px;
+}
+div#info-container{
+  margin-bottom:20px;
+  width:550px;
+}
+
+div#home-container > button{
+  font-size: 20px;
+}
