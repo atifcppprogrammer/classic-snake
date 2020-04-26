@@ -22,6 +22,7 @@ div#submit-container > input{
   background-color:rgb(25,25,25);
   border: 2px solid brown; 
   border-radius:80px;
+  text-align:center;
   color:white;
   height:43px;
 }
