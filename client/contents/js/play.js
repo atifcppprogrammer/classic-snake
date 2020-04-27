@@ -71,8 +71,11 @@ $(document).ready(() => {
     // Changing message text.
     const text = 'Submitting your score ! Please Wait ...';
     $(message).text(text);
-    submitScore().then(()=>{
-      open(url.concat('/scores'), '_self');
+    // Fading out submit container and submiting score.
+    $(submit).fadeOut(delay,()=>{
+      submitScore().then(()=>{
+        open(url.concat('/scores'), '_self');
+      });
     });
   });
 
