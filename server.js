@@ -4,9 +4,9 @@
  * @author atifcppprogrammer.
  */
 
-const messages = require('./prog_modules/helpers.js').messages;
+const messages = require('./modules/helpers.js').messages;
 // Importing all programmer defined modules.
-const scores = require('./prog_modules/scores.js');
+const scores = require('./modules/scores.js');
 
  // Importing all required node modules.
 const bodyParser = require('body-parser');
